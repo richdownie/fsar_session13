@@ -7,6 +7,3 @@ Feature: FSAR Testing in Production Scenarios
 	And I GET my Widget Count and verify it equals "1"
 	And I DELETE my widgets via the API
 	And I GET my Widget Count and verify it equals "0"
-	
-	
-	
