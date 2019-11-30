@@ -6,7 +6,7 @@ Before do
   else
     @browser = Selenium::WebDriver.for :chrome, options: options
   end
-  @fsar_api_key = "<add_your_fsar_api_key>"
+  @fsar_api_key = ""
   if @fsar_api_key.empty?
     puts "1. Please Sign In https://fullstackautomationwithruby.com/users/sign_in."
     puts "2. Visit the PROFILE page."
